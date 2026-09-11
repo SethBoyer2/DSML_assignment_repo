@@ -1,0 +1,37 @@
+## Fraud Detection 
+ Bank and card fraud is a common problem that loses both banks and people money and trust. DSML can be used to help solve this problem via machine learning models trained on the typical behaviors of a client.
+
+## Technical explanation 
+A machine learning model trained using multiple client features such as time of purchase, location of purchase, amount spent, and whether or not it was from an unusual merchant could be used in conjunction with a boolean fraudulent label. For example, if most purchases are made in winnipeg, under 500$, then a 3000 dollar purchase in toronto would be labelled fraudulent with a high degree of certainty due to the unusual amount, location and merchant. The best training algorithm for this, in my opinion, would be logistic regression, as it is used to predict the probability of something being true or false. Using this, we can also sort output into multiple labels, such as definite fraud, likely fraud, or unlikely fraud, depending on where the model lands between true and false for a fraudulent purchase.
+
+## Business explanation 
+Bank and card fraud poses a lot of risks for both the bank and the client. In most cases of card fraud, you need to expend time and resources in filing the appropriate paperwork, recovering stolen money and gathering the information you need to solve the case. Not only this, but your clients will become much more hesitant in using their cards for online shopping, and they may even lose trust in the institution. Our solution is to detect and stop fraudulent purchases as they occur. You can expect a major cutdown on fraud reports and substantially less funds going towards the recovery and stoppage of fraud. The best part is that all of this occurs in the background, so your team can continue to work effectively without being bogged down by dealing with fraud.
+
+ 
+
+## Reflection  
+I think that the biggest distinction to make between DSML, AI and DL would be that Data Science is the actual field of science, and doesn't necessarily have to include ML or DL, and neither does AI. There are a lot of AI problems that don't really include data science, and a ton of data science problems that really don't include AI. However, all ML and DL include AI, as machine learning is effectively a subcategory of AI.  
+
+    Touching more on that, I think it's also important to understand that a lot of these concepts aren't necessarily adjacent to each other, but are rather hierarchal in a way. Data science overlaps with ML, DL and AI, ML is a subset of AI, and DL is a subset of ML. This is something that confused me at first, because I thought machine and deep learning were very separate at first, but DL is almost like a more thorough, advanced child component of ML. 
+
+    As for what I found most confusing to start with, I was honestly lost on the entire thing. I had to do a lot of reading to make the distinctions that I was able to make throughout this assignment, but I think what I found most confusing was probably the distinction between ML and DL, and also trying to apply artificial intelligence to something outside of LLMs, as standard artificial intelligence has really taken the bench as large language models took the world by storm, and now LLMs are basically synonymous with AI to most people, so I kind of had to break away from that in order to do this assignment effectively. The workflow itself was also quite confusing to me, but I think I made sense of it by the end. I was just confusing about having the feature go directly into the label, because I initially thought that the label was the overall output of the training, but I found out that labels are actually used for the training, effectively as the "correct" answer for the algorithm to compare against.  
+
+    I think basically every distinction became clearer throughout, but I think my understanding of DS has increased quite a bit, and I realized that it is slightly less involved in the technical aspect from what I can see, as data science is a vast field that doesn't always include ML and DL, but we are still working within the field of data science. And the distinction between ML and DL became a lot clearer as well. I thought they would be a lot more different, but they're quite similar, just with DL including multiple algorithms, standardization and several layers 
+
+ 
+
+    The most important insight that I gained was definitely just the basic learning about DSML, AI and DL as I read articles and pages and worked through this assignment. I did not know a single thing about ML previous to this assignment, and I feel like I've already learned a lot in the process of writing this assignment. I picked up a huge amount of information in a really short time, so I'm quite happy with that. 
+
+ 
+
+ 
+
+SOURCES: 
+
+https://aws.amazon.com/compare/the-difference-between-artificial-intelligence-and-machine-learning/ 
+
+https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks 
+
+https://cloud.google.com/learn/artificial-intelligence-vs-machine-learning 
+
+https://www.geeksforgeeks.org/machine-learning/understanding-logistic-regression/
